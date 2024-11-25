@@ -4,11 +4,9 @@ import { FaRegCircleUser } from "react-icons/fa6";
 import React from "react";
 import "./styles.css";
 
-interface GBNavigationProps {
-  children: React.ReactNode;
-}
 
-export default function GBNavigation({ children }: GBNavigationProps) {
+
+export default function GBNavigation() {
   const { pathname } = useLocation();
   const links = [
     { label: "Home", path: "/Home", icon: FaHome },
@@ -38,7 +36,7 @@ export default function GBNavigation({ children }: GBNavigationProps) {
           {link.label}
         </Link>
       ))}
-      <div>{children}</div>
+      
     </div>
   );
 }

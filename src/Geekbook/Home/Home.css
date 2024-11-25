@@ -1,0 +1,55 @@
+/* src/components/Home/HomePage.css */
+.home-page {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0 20px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.hero-section {
+    background: #282c34;
+    color: white;
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+}
+
+.content-section {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.content-section h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.content-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content-section li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.footer {
+    margin-top: 30px;
+    color: #666;
+    padding-bottom: 20px;
+}

@@ -18,10 +18,12 @@ body {
     }
 }
 @media(min-width: 768px) {
-
-    #geekbook .gb-main-content-offset {
-
-        padding-left: 140px !important;
+    .geekbook .gb-navigation {
+        display: flex;
+    }
+    .gb-main-content {
+        padding: 1rem;
+        flex-grow: 1;
     }
 
     .list-group {
@@ -42,11 +44,13 @@ code {
 
 .gb-navigation {
     display: flex;
+    width: 200px;
 }
 
 .gb-main-content-offset {
     margin-left: 150px;
 }
+
 
 .list-group-item {
     padding: 10px 15px;
